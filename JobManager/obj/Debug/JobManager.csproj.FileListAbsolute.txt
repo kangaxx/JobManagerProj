@@ -1,0 +1,17 @@
+E:\code\vs2012\JobManagerProj\JobManager\bin\Debug\JobManager.exe.config
+E:\code\vs2012\JobManagerProj\JobManager\bin\Debug\JobManager.exe
+E:\code\vs2012\JobManagerProj\JobManager\bin\Debug\JobManager.pdb
+E:\code\vs2012\JobManagerProj\JobManager\bin\Debug\HRGLinqLibrary.dll
+E:\code\vs2012\JobManagerProj\JobManager\bin\Debug\HRG_Base_2012.dll
+E:\code\vs2012\JobManagerProj\JobManager\bin\Debug\log4net.dll
+E:\code\vs2012\JobManagerProj\JobManager\bin\Debug\Newtonsoft.Json.dll
+E:\code\vs2012\JobManagerProj\JobManager\bin\Debug\HRGLinqLibrary.pdb
+E:\code\vs2012\JobManagerProj\JobManager\bin\Debug\HRG_Base_2012.pdb
+E:\code\vs2012\JobManagerProj\JobManager\bin\Debug\log4net.xml
+E:\code\vs2012\JobManagerProj\JobManager\bin\Debug\Newtonsoft.Json.xml
+E:\code\vs2012\JobManagerProj\JobManager\obj\Debug\JobManager.csprojResolveAssemblyReference.cache
+E:\code\vs2012\JobManagerProj\JobManager\obj\Debug\JobManager.frmMain.resources
+E:\code\vs2012\JobManagerProj\JobManager\obj\Debug\JobManager.Properties.Resources.resources
+E:\code\vs2012\JobManagerProj\JobManager\obj\Debug\JobManager.csproj.GenerateResource.Cache
+E:\code\vs2012\JobManagerProj\JobManager\obj\Debug\JobManager.exe
+E:\code\vs2012\JobManagerProj\JobManager\obj\Debug\JobManager.pdb
