@@ -56,17 +56,54 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FrmSubJobEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSubJobEdit.Designer.cs">
+      <DependentUpon>FrmSubJobEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Global.cs" />
     <Compile Include="DataReadHelper.cs" />
+    <Compile Include="FrmJobNew.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmJobNew.Designer.cs">
+      <DependentUpon>FrmJobNew.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmJobEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmJobEdit.Designer.cs">
+      <DependentUpon>FrmJobEdit.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmMain.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmMain.Designer.cs">
       <DependentUpon>frmMain.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmSubJobNew.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSubJobNew.Designer.cs">
+      <DependentUpon>FrmSubJobNew.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FrmJobNew.resx">
+      <DependentUpon>FrmJobNew.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmJobEdit.resx">
+      <DependentUpon>FrmJobEdit.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmMain.resx">
       <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSubJobEdit.resx">
+      <DependentUpon>FrmSubJobEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSubJobNew.resx">
+      <DependentUpon>FrmSubJobNew.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

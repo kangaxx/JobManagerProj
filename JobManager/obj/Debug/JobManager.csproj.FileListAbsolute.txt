@@ -9,9 +9,12 @@ E:\code\vs2012\JobManagerProj\JobManager\bin\Debug\HRGLinqLibrary.pdb
 E:\code\vs2012\JobManagerProj\JobManager\bin\Debug\HRG_Base_2012.pdb
 E:\code\vs2012\JobManagerProj\JobManager\bin\Debug\log4net.xml
 E:\code\vs2012\JobManagerProj\JobManager\bin\Debug\Newtonsoft.Json.xml
-E:\code\vs2012\JobManagerProj\JobManager\obj\Debug\JobManager.csprojResolveAssemblyReference.cache
 E:\code\vs2012\JobManagerProj\JobManager\obj\Debug\JobManager.frmMain.resources
 E:\code\vs2012\JobManagerProj\JobManager\obj\Debug\JobManager.Properties.Resources.resources
 E:\code\vs2012\JobManagerProj\JobManager\obj\Debug\JobManager.csproj.GenerateResource.Cache
 E:\code\vs2012\JobManagerProj\JobManager\obj\Debug\JobManager.exe
 E:\code\vs2012\JobManagerProj\JobManager\obj\Debug\JobManager.pdb
+E:\code\vs2012\JobManagerProj\JobManager\obj\Debug\JobManager.FrmJobEdit.resources
+E:\code\vs2012\JobManagerProj\JobManager\obj\Debug\JobManager.FrmJobNew.resources
+E:\code\vs2012\JobManagerProj\JobManager\obj\Debug\JobManager.FrmSubJobNew.resources
+E:\code\vs2012\JobManagerProj\JobManager\obj\Debug\JobManager.csprojResolveAssemblyReference.cache

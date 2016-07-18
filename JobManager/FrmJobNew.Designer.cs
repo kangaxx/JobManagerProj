@@ -1,0 +1,196 @@
+﻿namespace JobManager
+{
+    partial class FrmJobNew
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.txtKeyWord = new System.Windows.Forms.TextBox();
+            this.txtType = new System.Windows.Forms.TextBox();
+            this.txtDesc = new System.Windows.Forms.TextBox();
+            this.txtName = new System.Windows.Forms.TextBox();
+            this.txtSN = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.lblSN = new System.Windows.Forms.Label();
+            this.btnSave = new System.Windows.Forms.Button();
+            this.btnClose = new System.Windows.Forms.Button();
+            this.SuspendLayout();
+            // 
+            // txtKeyWord
+            // 
+            this.txtKeyWord.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtKeyWord.Location = new System.Drawing.Point(104, 120);
+            this.txtKeyWord.Name = "txtKeyWord";
+            this.txtKeyWord.Size = new System.Drawing.Size(304, 21);
+            this.txtKeyWord.TabIndex = 20;
+            // 
+            // txtType
+            // 
+            this.txtType.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtType.Location = new System.Drawing.Point(104, 93);
+            this.txtType.Name = "txtType";
+            this.txtType.Size = new System.Drawing.Size(304, 21);
+            this.txtType.TabIndex = 19;
+            // 
+            // txtDesc
+            // 
+            this.txtDesc.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtDesc.Location = new System.Drawing.Point(104, 66);
+            this.txtDesc.Name = "txtDesc";
+            this.txtDesc.Size = new System.Drawing.Size(304, 21);
+            this.txtDesc.TabIndex = 18;
+            // 
+            // txtName
+            // 
+            this.txtName.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtName.Location = new System.Drawing.Point(104, 39);
+            this.txtName.Name = "txtName";
+            this.txtName.Size = new System.Drawing.Size(304, 21);
+            this.txtName.TabIndex = 17;
+            // 
+            // txtSN
+            // 
+            this.txtSN.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtSN.Location = new System.Drawing.Point(104, 12);
+            this.txtSN.Name = "txtSN";
+            this.txtSN.Size = new System.Drawing.Size(304, 21);
+            this.txtSN.TabIndex = 16;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(13, 123);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(77, 12);
+            this.label5.TabIndex = 15;
+            this.label5.Text = "Job_Key_Word";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(13, 96);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(53, 12);
+            this.label4.TabIndex = 14;
+            this.label4.Text = "Job_Type";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(13, 69);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(53, 12);
+            this.label3.TabIndex = 13;
+            this.label3.Text = "Job_Desc";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(13, 42);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(47, 12);
+            this.label2.TabIndex = 12;
+            this.label2.Text = "JobName";
+            // 
+            // lblSN
+            // 
+            this.lblSN.AutoSize = true;
+            this.lblSN.Location = new System.Drawing.Point(13, 15);
+            this.lblSN.Name = "lblSN";
+            this.lblSN.Size = new System.Drawing.Size(35, 12);
+            this.lblSN.TabIndex = 11;
+            this.lblSN.Text = "JobSN";
+            // 
+            // btnSave
+            // 
+            this.btnSave.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnSave.Location = new System.Drawing.Point(238, 157);
+            this.btnSave.Name = "btnSave";
+            this.btnSave.Size = new System.Drawing.Size(82, 41);
+            this.btnSave.TabIndex = 22;
+            this.btnSave.Text = "保存(&S)";
+            this.btnSave.UseVisualStyleBackColor = true;
+            this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
+            // 
+            // btnClose
+            // 
+            this.btnClose.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnClose.Location = new System.Drawing.Point(326, 157);
+            this.btnClose.Name = "btnClose";
+            this.btnClose.Size = new System.Drawing.Size(82, 41);
+            this.btnClose.TabIndex = 21;
+            this.btnClose.Text = "关闭(&C)";
+            this.btnClose.UseVisualStyleBackColor = true;
+            this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
+            // 
+            // FormJobNew
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(420, 210);
+            this.Controls.Add(this.btnSave);
+            this.Controls.Add(this.btnClose);
+            this.Controls.Add(this.txtKeyWord);
+            this.Controls.Add(this.txtType);
+            this.Controls.Add(this.txtDesc);
+            this.Controls.Add(this.txtName);
+            this.Controls.Add(this.txtSN);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.lblSN);
+            this.Name = "FormJobNew";
+            this.Text = "新增业务";
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.TextBox txtKeyWord;
+        private System.Windows.Forms.TextBox txtType;
+        private System.Windows.Forms.TextBox txtDesc;
+        private System.Windows.Forms.TextBox txtName;
+        private System.Windows.Forms.TextBox txtSN;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label lblSN;
+        private System.Windows.Forms.Button btnSave;
+        private System.Windows.Forms.Button btnClose;
+    }
+}
