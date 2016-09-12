@@ -80,7 +80,7 @@ namespace JobManager
                 postId = (int)_listPov.ElementAt(cbPostId.SelectedIndex).ID;
             }
             DataReadWriteHelper drw = new DataReadWriteHelper(Global.config);
-            string cmd = String.Format("update sub_job_list set SUB_JOB_NAME=\"{0}\", SUB_JOB_TEXT=\"{1}\", SUB_JOB_TYPE=\"{2}\", POST_ID=\"{3}\" where SUB_JOB_ID = {4}",
+            string cmd = String.Format("update sub_job_list set SUBJOBNAME=\"{0}\", SUBJOBTEXT=\"{1}\", SUB_JOB_TYPE=\"{2}\", POSTID=\"{3}\" where SUB_JOB_ID = {4}",
                                         txtStepName.Text, txtStepText.Text, cbStepType.Text,postId, _id);
             drw.updateData(cmd);
 

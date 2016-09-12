@@ -172,7 +172,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.lblSN);
             this.Name = "FrmJobEdit";
-            this.Text = "编辑业务信息";
+            this.Text = "修改业务信息";
             this.ResumeLayout(false);
             this.PerformLayout();
 

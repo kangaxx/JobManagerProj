@@ -25,8 +25,11 @@ namespace JobManager
         private void btnSave_Click(object sender, EventArgs e)
         {
             DataReadWriteHelper drw = new DataReadWriteHelper(Global.config);
+            int type = 1;
+            if (Int32.TryParse(txtType.Text.Trim(), out type) == false)
+                type = 0;
             string args = "[{'name':'@sn','value':'" + txtSN.Text + "','direct':'1'},{'name':'@name','value':'" + txtName.Text + "','direct':'1'}"
-            + ",{'name':'@desc','value':'" + txtDesc.Text + "','direct':'1'},{'name':'@type','value':'" + txtType.Text + "','direct':'1'},{'name':'@key','value':'" + txtKeyWord.Text + "','direct':'1'}]";
+            + ",{'name':'@desc','value':'" + txtDesc.Text + "','direct':'1'},{'name':'@type','value':'" + type + "','direct':'1'},{'name':'@key','value':'" + txtKeyWord.Text + "','direct':'1'}]";
 
             drw.callProc("PROC_INSERT_JOB_LIST", args);
             this.Close();

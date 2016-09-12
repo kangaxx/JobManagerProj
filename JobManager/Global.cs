@@ -12,6 +12,12 @@ namespace JobManager
         public string PlaceName { set; get; }
     }
 
+    class SubJobInfo
+    {
+        public int sub_job_id { set; get; }
+
+    }
+
     class Global
     {
         public static string config = System.AppDomain.CurrentDomain.BaseDirectory + "\\files\\dbconn.aes"; 

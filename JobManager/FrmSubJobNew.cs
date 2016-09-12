@@ -27,6 +27,7 @@ namespace JobManager
             _parentId = parentId;
             _jobId = jobId;
             InitializeComponent();
+            cbStepType.SelectedIndex = 0;
             showParentStepText(parentName, parentText);
             getPovList();
         }
@@ -60,6 +61,7 @@ namespace JobManager
                         cbPostId.Items.Add(t.PlaceName);
 
                 }
+                cbPostId.SelectedIndex = 0;
             }
         }
 

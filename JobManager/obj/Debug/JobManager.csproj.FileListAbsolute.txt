@@ -17,4 +17,5 @@ E:\code\vs2012\JobManagerProj\JobManager\obj\Debug\JobManager.pdb
 E:\code\vs2012\JobManagerProj\JobManager\obj\Debug\JobManager.FrmJobEdit.resources
 E:\code\vs2012\JobManagerProj\JobManager\obj\Debug\JobManager.FrmJobNew.resources
 E:\code\vs2012\JobManagerProj\JobManager\obj\Debug\JobManager.FrmSubJobNew.resources
+E:\code\vs2012\JobManagerProj\JobManager\obj\Debug\JobManager.FrmSubJobEdit.resources
 E:\code\vs2012\JobManagerProj\JobManager\obj\Debug\JobManager.csprojResolveAssemblyReference.cache

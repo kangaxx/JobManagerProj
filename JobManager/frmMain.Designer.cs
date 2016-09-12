@@ -138,33 +138,33 @@
             // btnSubJobNew
             // 
             this.btnSubJobNew.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnSubJobNew.Location = new System.Drawing.Point(487, 449);
+            this.btnSubJobNew.Location = new System.Drawing.Point(495, 449);
             this.btnSubJobNew.Name = "btnSubJobNew";
             this.btnSubJobNew.Size = new System.Drawing.Size(73, 38);
             this.btnSubJobNew.TabIndex = 9;
-            this.btnSubJobNew.Text = "新增(&A)";
+            this.btnSubJobNew.Text = "新增步骤(&Z)";
             this.btnSubJobNew.UseVisualStyleBackColor = true;
             this.btnSubJobNew.Click += new System.EventHandler(this.btnSubJobNew_Click);
             // 
             // btnSubJobEdit
             // 
             this.btnSubJobEdit.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnSubJobEdit.Location = new System.Drawing.Point(566, 449);
+            this.btnSubJobEdit.Location = new System.Drawing.Point(574, 449);
             this.btnSubJobEdit.Name = "btnSubJobEdit";
             this.btnSubJobEdit.Size = new System.Drawing.Size(73, 38);
             this.btnSubJobEdit.TabIndex = 8;
-            this.btnSubJobEdit.Text = "修改(&E)";
+            this.btnSubJobEdit.Text = "修改步骤(&X)";
             this.btnSubJobEdit.UseVisualStyleBackColor = true;
             this.btnSubJobEdit.Click += new System.EventHandler(this.btnSubJobEdit_Click);
             // 
             // btnSubJobDel
             // 
             this.btnSubJobDel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnSubJobDel.Location = new System.Drawing.Point(645, 449);
+            this.btnSubJobDel.Location = new System.Drawing.Point(653, 449);
             this.btnSubJobDel.Name = "btnSubJobDel";
-            this.btnSubJobDel.Size = new System.Drawing.Size(73, 38);
+            this.btnSubJobDel.Size = new System.Drawing.Size(65, 38);
             this.btnSubJobDel.TabIndex = 7;
-            this.btnSubJobDel.Text = "删除（&D)";
+            this.btnSubJobDel.Text = "删除步骤（&S)";
             this.btnSubJobDel.UseVisualStyleBackColor = true;
             this.btnSubJobDel.Click += new System.EventHandler(this.btnSubJobDel_Click);
             // 

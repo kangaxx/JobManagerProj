@@ -6,13 +6,33 @@ using System.Threading.Tasks;
 using HRG_LinqLibrary;
 using System.Data;
 using System.Windows.Forms;
+using System.Configuration;
 
 namespace JobManager
 {
+    #region 数据字典功能类
+    class DataDirectionHelper
+    {
+        public DataDirectionHelper()
+        {
+            //构建函数，暂时没有内容
+        }
+
+        public static string GetDescByFieldName(string fieldName)
+        {
+            string result = System.Configuration.ConfigurationManager.AppSettings[fieldName];
+            if (result == null)
+                return fieldName;
+            else
+                return result;
+        }
 
 
+    }
 
+    #endregion
 
+    #region 数据库数据处理综合功能类
     class DataReadWriteHelper
     {
         private string _config;
@@ -43,7 +63,7 @@ namespace JobManager
                         {
                             if (lv.Columns.Count < dr.FieldCount)
                             {
-                                lv.Columns.Add(dr.GetName(i), 120, HorizontalAlignment.Left);
+                                lv.Columns.Add(DataDirectionHelper.GetDescByFieldName(dr.GetName(i)), 120, HorizontalAlignment.Left);
                             }
                             values.Add(dr[i].ToString());
 
@@ -53,13 +73,13 @@ namespace JobManager
                     }
                 }
             }
-            catch(Exception e)
+            catch (Exception e)
             {
                 MessageBox.Show(String.Format("Error, {0}", e), "Error info", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
-        public List<T> readData<T>(string queryString) where T: new()
+        public List<T> readData<T>(string queryString) where T : new()
         {
             using (HRG_DBFactory factory = new HRG_DBFactory(_config))
             {
@@ -67,7 +87,7 @@ namespace JobManager
                 List<T> result = new List<T>();
                 HRG_IDataContext dc = factory.getDC();
                 IDataReader dr = dc.obj_Query(queryString);
-                while (dr.Read())
+                while (dr != null && dr.Read())
                 {
                     T t = new T();
                     for (int i = 0; i < dr.FieldCount; ++i)
@@ -125,4 +145,5 @@ namespace JobManager
         }
 
     }
+    #endregion
 }

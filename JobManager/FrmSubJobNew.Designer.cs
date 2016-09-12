@@ -108,6 +108,7 @@
             // 
             this.cbStepType.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.cbStepType.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbStepType.FormattingEnabled = true;
             this.cbStepType.Items.AddRange(new object[] {
             "1",
@@ -121,6 +122,7 @@
             // 
             this.cbPostId.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.cbPostId.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbPostId.FormattingEnabled = true;
             this.cbPostId.Location = new System.Drawing.Point(138, 105);
             this.cbPostId.Name = "cbPostId";
@@ -166,7 +168,7 @@
             this.Controls.Add(this.txtStepName);
             this.Controls.Add(this.lblParentStep);
             this.Name = "FrmSubJobNew";
-            this.Text = "FrmSubJobNew";
+            this.Text = "新增步骤信息";
             this.ResumeLayout(false);
             this.PerformLayout();
 
